@@ -42,12 +42,12 @@ _This text_ is italic.
   _This text_ is also italic.
 ```
 
-_This text_ is also italic
+_This text_ is also italic.
 
 ### 2.2 Strong
 
 ```
-  **This text** is strong
+  **This text** is strong.
 ```
 
 **This text** is strong.
@@ -68,9 +68,9 @@ _This text_ is also italic
 
 > Best Practices:
 >
-> Try to use \*, **, \*** to italic or strong the word.
+> Try to use *, **, *** to italic or strong the word.
 >
-> Since underscore (\_) doesn't work in the middle of a word.
+> Since underscore (_) doesn't work in the middle of a word.
 
 ### 2.4 Strike through
 
@@ -367,6 +367,15 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 This is a sentence. `<p>This is a p tag</p>` This is another sentence.
 
 ### 7.2 Normal code block
+
+````
+  ```
+    npm install
+
+    npm start
+  ```
+````
+
 
 ```
   npm install
